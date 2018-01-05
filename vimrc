@@ -35,7 +35,8 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 "Match whitespaces
-match ErrorMsg '\s\+$'
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
 
 set nostartofline
 
