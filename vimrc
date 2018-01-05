@@ -77,3 +77,5 @@ set autowrite
 let g:clang_library_path='/usr/lib/llvm-3.8/lib'
 let g:clang_use_library = 1
 let g:clang_close_preview = 1
+
+:set colorcolumn=80
