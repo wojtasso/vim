@@ -75,8 +75,10 @@ set notimeout ttimeout ttimeoutlen=200
 " Automatically save before commands like :next and :make
 set autowrite
 
-let g:clang_library_path='/usr/lib/llvm-3.8/lib'
+let g:clang_library_path='/usr/lib/llvm-5.0/lib'
 let g:clang_use_library = 1
 let g:clang_close_preview = 1
-
-:set colorcolumn=80
+let g:clang_user_options='|| exit 0'
+set colorcolumn=80
+set scrolloff=3
+set cursorline
