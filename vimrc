@@ -82,3 +82,6 @@ let g:clang_user_options='|| exit 0'
 set colorcolumn=80
 set scrolloff=3
 set cursorline
+
+set tags=tags;
+set autochdir
