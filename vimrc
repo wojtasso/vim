@@ -85,3 +85,5 @@ set cursorline
 
 set tags=tags;
 set autochdir
+
+set mouse-=a
